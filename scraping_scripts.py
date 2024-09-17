@@ -5,7 +5,7 @@ import json
 import requests
 
 def get_seven_store(lat:float, long:float):
-    url = "https://7eleven-api-prod.jenosize.tech/v1/Store/GetStoreByCurrentLocation"
+    url = "find from 7-11website"
     payload = {"latitude": lat, "longitude": long}
     headers = {'Accept': 'application/json, text/plain, */*'}
     response = requests.post(url, json=payload, headers=headers) 
